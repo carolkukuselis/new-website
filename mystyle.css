@@ -9,7 +9,7 @@
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 20px;
     text-decoration: none;
     font-size: 17px;
   }
@@ -25,8 +25,39 @@
     background-color: #a74caf;
     color: white;
   }
+
+  h1 {
+    text-align: center;
+  }
+/* For mobile phones: */
+  @media only screen and (min-width: 600px) {
+    body {
+    width: 100%;
+    }
+  }
+  /* For desktop: */
+  @media only screen and (max-width: 601px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+
+
+
+
+
+  /* image size */
+  img {
+    float: center;
+  }
+
   /* footer */
   footer {
+    background-color: black;
+      color:#f2f2f2;
+      font-size: 12 px;
+      padding: 14px 14px;
       text-align: center;
       float: center;
   } 
