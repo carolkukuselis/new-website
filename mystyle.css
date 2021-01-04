@@ -29,12 +29,54 @@
   h1 {
     text-align: center;
   }
-/* For mobile phones: */
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+
+
+
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .row2::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+
+
+  /* For mobile phones: */
   @media only screen and (min-width: 600px) {
     body {
     width: 100%;
     }
   }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
   /* For desktop: */
   @media only screen and (max-width: 601px) {
     body {
@@ -47,10 +89,8 @@
 
 
 
-  /* image size */
-  img {
-    float: center;
-  }
+  
+  
 
   /* footer */
   footer {
