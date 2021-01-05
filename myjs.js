@@ -1,0 +1,1 @@
+window.alert("Welcome to Adopt a Cat, check out my cute cats pictures!");
